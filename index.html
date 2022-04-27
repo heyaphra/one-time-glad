@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
   </head>
   <body>
     <script>
@@ -22,7 +27,7 @@
         const pad = params.get("pad");
         const ciphertext = params.get("ciphertext");
         const messageDisplay = document.getElementById("message-display");
-        console.log(pad)
+        console.log(pad);
         messageDisplay.innerText = otp_decrypt({ pad, ciphertext });
       });
     </script>
