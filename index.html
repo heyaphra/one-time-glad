@@ -23,8 +23,7 @@
         const ciphertext = params.get("ciphertext");
         const messageDisplay = document.getElementById("message-display");
         console.log(pad)
-        console.log(otp_decrypt({ pad, ciphertext }));
-        // messageDisplay.innerText = otp_decrypt({ pad, ciphertext });
+        messageDisplay.innerText = otp_decrypt({ pad, ciphertext });
       });
     </script>
 
