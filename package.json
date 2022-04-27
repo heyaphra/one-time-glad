@@ -1,0 +1,26 @@
+{
+  "name": "one-time-glad",
+  "version": "1.0.0",
+  "description": "Implementing one-time pads in the silliest ways possible.",
+  "main": "otg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyaphra/one-time-glad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyaphra/one-time-glad/issues"
+  },
+  "homepage": "https://github.com/heyaphra/one-time-glad#readme",
+  "dependencies": {
+    "algebra.js": "^0.2.6",
+    "mathjs": "^10.1.1",
+    "nerdamer": "^1.1.13",
+    "qrcode": "^1.5.0"
+  }
+}
